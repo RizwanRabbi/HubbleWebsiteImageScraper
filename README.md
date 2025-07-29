@@ -1,5 +1,5 @@
 
-# Hubble Image Scraper
+# ESA Hubble Website Image Scraper
 
 A no-fuss tool to grab Hubble images from the ESA website. No more right-click-save nonsense.
 
