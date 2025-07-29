@@ -13,7 +13,7 @@ Works well for grabbing galaxies, nebulae, or other catagories they've posted.
 
 ### 1. Requirements
 
-You'll need these first:
+You'll need to install these first:
 
 ```bash
 pip install requests beautifulsoup4
