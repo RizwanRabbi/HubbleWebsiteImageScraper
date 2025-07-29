@@ -71,7 +71,7 @@ python hubble_image_downloader.py
 
 # If your download isn't working
 
-This script downloads images in `.jpg` format from the Hubble CDN using URLs like:
+This script downloads images in `.jpg` format from the ESA Hubble CDN using URLs like:
 
 ```
 https://cdn.esahubble.org/archives/images/large/{image_id}.jpg
