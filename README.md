@@ -32,7 +32,7 @@ END_PAGE = None    # Example: 10
 
 You can:
 
-- Set stuff up in the script 
+- Set up the variables before running the script 
 - Or run it and fill in when asked
 
 ---
