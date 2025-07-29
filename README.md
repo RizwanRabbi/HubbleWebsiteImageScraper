@@ -4,10 +4,10 @@
 A no-fuss tool to grab Hubble images from the ESA website. No more right-click-save nonsense.
 
 It scrapes the highest quality images only from pages that start with `https://esahubble.org/images/`. The images are saved in `.jpg` format, organized by page number, and the script skips any files you’ve already downloaded.
-- You can change the format being downloaded (e.g., `.png`, `.tif`, etc.) by modifying the same URL construction line inside the `download_image()` function. Just make sure that format actually exists on the server - otherwise, you'll get 404 errors.
-
 Works well for grabbing galaxies, nebulae, or other catagories they've posted.
 
+- You can change the format being downloaded (e.g., `.png`, `.tif`, etc.) by modifying the same URL construction line inside the `download_image()` function. Just make sure that format actually exists on the server - otherwise, you'll get 404 errors.
+  
 ---
 
 ## How to Use It
