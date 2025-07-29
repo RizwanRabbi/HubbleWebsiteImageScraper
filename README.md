@@ -4,6 +4,7 @@
 A no-fuss tool to grab Hubble images from the ESA website. No more right-click-save nonsense.
 
 It scrapes the highest quality images only from pages that start with `https://esahubble.org/images/`. The images are saved in `.jpg` format, organized by page number, and the script skips any files you’ve already downloaded.
+- You can change the format being downloaded (e.g., `.png`, `.tif`, etc.) by modifying the same URL construction line inside the `download_image()` function. Just make sure that format actually exists on the server - otherwise, you'll get 404 errors.
 
 Works well for grabbing galaxies, nebulae, or other catagories they've posted.
 
@@ -79,13 +80,12 @@ https://cdn.esahubble.org/archives/images/large/{image_id}.jpg
 
 If ESA/Hubble ever changes their URL structure, like renaming the `cdn.esahubble.org` domain or moving the image folder path, the script won’t be able to find the images and downloads will start failing with 404 errors.
 
-So if you're suddenly getting a lot of "Not Found (404)" messages - it's not your internet. It probably means Hubble updated something on their end.
+If you're suddenly getting a lot of "Not Found (404)" messages it probably means Hubble updated something on their end.
 
-You'd need to:
+You need to:
 
 - Inspect the new URL pattern from the Hubble website manually  
 - Update the line in the script that builds the `image_url` (inside the `download_image()` function)
-- You can also change the format being downloaded (e.g., `.png`, `.tif`, etc.) by modifying the same URL construction line inside the `download_image()` function. Just make sure that format actually exists on the server - otherwise, you'll still get 404 errors.
 
 ## License
 
