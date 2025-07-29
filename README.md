@@ -7,6 +7,7 @@ It scrapes the highest quality images only from pages that start with `https://e
 Works well for grabbing galaxies, nebulae, or other catagories they've posted.
 
 - You can change the format being downloaded (e.g., `.png`, `.tif`, etc.) by modifying the URL construction line inside the `download_image()` function. Just make sure that format actually exists on the server - otherwise, you'll get 404 errors.
+- Pro-Tip : If you've got images missing due download failure/ errored or bugged out images just delete that file and re-run the script. It will skip the existing ones.
   
 ---
 
